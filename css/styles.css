@@ -541,6 +541,7 @@ body {
   display: flex;
   margin: 0 auto 5rem auto;
   background: var(--light-green);
+  position: relative;
 }
 .service-texts {
   width: 50%;
@@ -578,13 +579,21 @@ body {
   color: var(--white);
 }
 .service-img {
-  width: 765px;
+  width: 775px;
   height: 453px;
+  right: -20px;
   display: flex;
+  position: absolute;
+  z-index: 99;
+  /* background: red; */
+  top: -40px;
+  /* top: -10px; */
+  border-radius: 1rem;
 }
 .img-service {
   width: 100%;
   object-fit: cover;
+  border-radius: 1rem;
 }
 
 /* FOOTER */
