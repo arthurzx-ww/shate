@@ -24,6 +24,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.banner-content,
+.introduction-content,
+.description-content,
+.testimonial-content,
+.brands-content,
+.card-content,
+.service-content,
+.footer-content {
+  margin: 5rem auto;
+}
+
 /* HEADER */
 
 .header {
@@ -98,11 +109,10 @@ body {
   width: 100%;
   display: flex;
   background: var(--light-black);
-  /* background: yellow; */
+  /* background: purple; */
 }
 .banner-content {
   width: 80%;
-  margin: auto;
   /* background: red; */
 }
 .banner-title {
@@ -175,7 +185,7 @@ body {
   width: 100%;
   display: flex;
   background: var(--light-black);
-  /* background: red; */
+  /* background: yellow; */
 }
 .introduction-content {
   width: 80%;
@@ -184,14 +194,13 @@ body {
   justify-content: center;
   display: flex;
   flex-direction: column;
-  margin: 5rem auto;
   /* padding: 3rem 0; */
   /* background: yellowgreen; */
 }
 .introduction-title {
   width: 100%;
   /* background: red; */
-  margin-top: 5rem;
+  padding: 5rem 0 0 0;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -203,7 +212,7 @@ body {
 }
 .introduction-text {
   width: 70%;
-  margin: 1.5rem 0 5rem 0;
+  padding: 1.5rem 0 5rem 0;
   /* background: pink; */
   display: flex;
   justify-content: center;
@@ -225,7 +234,6 @@ body {
 }
 .description-content {
   width: 80%;
-  margin: 1rem auto 5rem auto;
   background: var(--green);
   border-radius: 88px;
 }
@@ -256,7 +264,7 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
-  /* background: red; */
+  /* background: red;   */
 }
 .img-description {
   width: 100%;
@@ -275,7 +283,7 @@ body {
 }
 .description-text {
   width: 55%;
-  margin-top: 2.5rem;
+  padding: 2.5rem 0 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -291,17 +299,25 @@ body {
 
 .testimonial {
   display: flex;
-  flex-direction: column;
   width: 100%;
-  /* background: yellowgreen; */
+  /* background: yellow; */
   background: var(--light-black);
+}
+
+.testimonial-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: red; */
 }
 .testimonial-title {
   align-items: center;
   display: flex;
   justify-content: center;
-  /* background: red; */
-  margin: 3rem 0;
+  /* background: goldenrod; */
+  padding: 3rem 0;
 }
 .title-testimonial {
   font-size: var(--font-size-xxlarge);
@@ -316,18 +332,16 @@ body {
 .text-testimonial {
   color: var(--white);
   font-size: var(--font-size-xsmall);
-  margin-bottom: 5rem;
+  padding: 0 0 5rem 0;
   text-align: center;
 }
-.testimonial-content {
-  width: 80%;
-  margin: 0 auto 4rem auto;
+.testimonials-texts {
+  /* background: blue; */
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
-  /* background: red; */
 }
 .testimonials-text {
   background: var(--green);
@@ -370,17 +384,17 @@ body {
   width: 100%;
   display: flex;
   background: var(--light-black);
+  /* background: greenyellow; */
 }
 .brands-content {
   width: 80%;
-  margin: 3rem auto;
   /* background: red; */
 }
 .brand-title {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 3rem;
+  padding: 0 0 3rem 0;
 }
 .title-brand {
   font-size: var(--font-size-xlarge);
@@ -406,28 +420,27 @@ body {
   display: flex;
   flex-direction: column;
   background: var(--light-black);
-  /* background: greenyellow; */
-}
-.card-title {
-  width: 100%;
-  margin: 5rem 0 2rem 0;
-  padding: 5rem 0;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  /* background: red; */
-}
-.title-card {
-  color: var(--white);
-  font-size: var(--font-size-xlarge);
+  /* background: yellow; */
 }
 .card-content {
   /* background: greenyellow; */
   width: 80%;
-  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.card-title {
+  width: 100%;
+  /* margin: 5rem 0 2rem 0; */
+  padding: 5rem 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* background: blue; */
+}
+.title-card {
+  color: var(--white);
+  font-size: var(--font-size-xlarge);
 }
 .cards-text {
   display: flex;
@@ -489,8 +502,9 @@ body {
   font-size: var(--font-size-xxsmall);
 }
 .cards {
-  margin: 5rem 0;
+  padding: 5rem 0;
   /* background: red; */
+  /* background: pink; */
   display: flex;
   justify-content: center;
   gap: 3rem;
@@ -546,7 +560,6 @@ body {
   height: 31.3125rem;
   border-radius: 20px;
   display: flex;
-  margin: 0 auto 5rem auto;
   background: var(--light-green);
   position: relative;
 }
@@ -627,7 +640,6 @@ body {
 }
 .footer-content {
   width: 80%;
-  margin: 5rem auto;
   display: flex;
   /* background: yellow; */
 }
