@@ -36,15 +36,20 @@ body {
   margin: 1rem auto 0.5rem auto;
   /* background: yellow; */
   display: flex;
+  justify-content: space-between;
 }
 .logo {
   /* background-color: red; */
-  width: 126px;
-  height: 34px;
+
+  width: 20%;
   margin: 0.5rem 0 0.5rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.logo-shate {
+  width: 126px;
+  height: 34px;
 }
 .shate-logo {
   width: 100%;
@@ -53,10 +58,11 @@ body {
 /* NAVIGATION */
 
 .navigation {
-  width: 90%;
+  width: 60%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+
   /* background: greenyellow; */
 }
 .nav-itens {
@@ -72,7 +78,7 @@ body {
   font-size: var(--font-size-smaller);
 }
 .button {
-  width: 10%;
+  width: 20%;
   justify-content: end;
   /* background: goldenrod; */
   align-items: center;
@@ -179,7 +185,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 5rem auto;
-  padding: 3rem 0;
+  /* padding: 3rem 0; */
   /* background: yellowgreen; */
 }
 .introduction-title {
@@ -218,7 +224,7 @@ body {
   background: var(--light-black);
 }
 .description-content {
-  width: 90%;
+  width: 80%;
   margin: 1rem auto 5rem auto;
   background: var(--green);
   border-radius: 88px;
@@ -314,7 +320,7 @@ body {
   text-align: center;
 }
 .testimonial-content {
-  width: 90%;
+  width: 80%;
   margin: 0 auto 4rem auto;
   display: flex;
   align-items: center;
@@ -326,12 +332,12 @@ body {
 .testimonials-text {
   background: var(--green);
   text-align: center;
-  width: 500px;
-  height: 620px;
+  width: 430px;
+  height: 640px;
   border-radius: 20px;
 }
 .testimonial-titles {
-  width: 80%;
+  width: 95%;
   /* background: red; */
   color: var(--white);
   margin: 3rem auto 0 auto;
@@ -366,7 +372,7 @@ body {
   background: var(--light-black);
 }
 .brands-content {
-  width: 90%;
+  width: 80%;
   margin: 3rem auto;
   /* background: red; */
 }
@@ -417,7 +423,7 @@ body {
 }
 .card-content {
   /* background: greenyellow; */
-  width: 90%;
+  width: 80%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -537,6 +543,7 @@ body {
 }
 .service-content {
   width: 80%;
+  height: 31.3125rem;
   border-radius: 20px;
   display: flex;
   margin: 0 auto 5rem auto;
@@ -545,9 +552,22 @@ body {
 }
 .service-texts {
   width: 50%;
-  margin: 3rem 0 5rem 3rem;
+  /* padding: 3rem 0 5rem 3rem; */
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
   /* background: purple; */
   padding-bottom: 1rem;
+}
+.service-texts-content {
+  /* background: red; */
+  display: flex;
+  width: 100%;
+  margin: auto;
+  flex-direction: column;
+}
+.service-image {
+  width: 50%;
 }
 .service-title {
   font-size: var(--font-size-xlarge);
@@ -590,6 +610,7 @@ body {
   /* top: -10px; */
   border-radius: 1rem;
 }
+
 .img-service {
   width: 100%;
   object-fit: cover;
@@ -605,7 +626,7 @@ body {
   background: var(--light-black);
 }
 .footer-content {
-  width: 90%;
+  width: 80%;
   margin: 5rem auto;
   display: flex;
   /* background: yellow; */
