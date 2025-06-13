@@ -17,7 +17,7 @@
           </div>
         </div>
         <!-- menu -->
-        <nav class="navigation">
+        <nav class="navigation" id="nav">
           <ul class="nav-itens">
             <li><a class="nav-item" href="#">Benefícios</a></li>
             <li><a class="nav-item" href="#">Avaliações</a></li>
@@ -27,6 +27,11 @@
         </nav>
         <div class="button">
           <a class="btn" href="#">Comece aqui</a>
+        </div>
+        <div class="bars" id="bars">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
       </div>
     </header>
@@ -188,8 +193,10 @@
               Marcas que estão atendendo melhor conosco
             </h1>
           </div>
-          <div class="brand-img">
-            <img class="img-brands" src="./img/Brands.png" alt="brands" />
+          <div class="brand-image">
+            <div class="brand-img">
+              <img class="img-brands" src="./img/Brands.png" alt="brands" />
+            </div>
           </div>
         </div>
       </section>
@@ -201,27 +208,39 @@
           </div>
           <div class="cards-text">
             <div class="card-texts">
-              <img class="card-img" src="./img/class.jpg" alt="class" />
+              <div class="image-card">
+                <div class="img-card">
+                  <img class="card-img" src="./img/class.jpg" alt="class" />
+                </div>
+              </div>
               <h2 class="cards-title">Novos meios de atender seu cliente</h2>
               <p class="card-text">
                 Conheça nossas dicas de como otimizar seu relacionamento.
               </p>
             </div>
             <div class="texts-card">
-              <div class="cards-img">
-                <img class="img-cards" src="./img/friends.jpg" alt="friends" />
-                <h2 class="title-cards">Feche mais negócios</h2>
-                <p class="text-card">
-                  Como uma mudança em sua apresentação pode levar sua empresa a
-                  um novo patamar.
-                </p>
+              <div class="card-image">
+                <div class="cards-img">
+                  <img
+                    class="img-cards"
+                    src="./img/friends.jpg"
+                    alt="friends"
+                  />
+                </div>
               </div>
+              <h2 class="title-cards">Feche mais negócios</h2>
+              <p class="text-card">
+                Como uma mudança em sua apresentação pode levar sua empresa a um
+                novo patamar.
+              </p>
             </div>
           </div>
           <div class="cards">
             <article class="cards-texts">
-              <div class="cards-imgs">
-                <img class="imgs-cards" src="./img/stone.jpg" alt="stone" />
+              <div class="cards-image">
+                <div class="cards-imgs">
+                  <img class="imgs-cards" src="./img/stone.jpg" alt="stone" />
+                </div>
               </div>
               <h2 class="cards-titles">Otimize sua página</h2>
               <p class="texts-cards">
@@ -230,8 +249,10 @@
               </p>
             </article>
             <article class="cards-texts">
-              <div class="cards-imgs">
-                <img class="imgs-cards" src="./img/robo.jpg" alt="robo" />
+              <div class="cards-image">
+                <div class="cards-imgs">
+                  <img class="imgs-cards" src="./img/robo.jpg" alt="robo" />
+                </div>
               </div>
               <h2 class="cards-titles">O futuro ao seu dispor</h2>
               <p class="texts-cards">
@@ -240,8 +261,10 @@
               </p>
             </article>
             <article class="cards-texts">
-              <div class="cards-imgs">
-                <img class="imgs-cards" src="./img/drone.jpg" alt="drone" />
+              <div class="cards-image">
+                <div class="cards-imgs">
+                  <img class="imgs-cards" src="./img/drone.jpg" alt="drone" />
+                </div>
               </div>
               <h2 class="cards-titles">Mobilidade é tudo</h2>
               <p class="texts-cards">
@@ -325,5 +348,6 @@
         </div>
       </section>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
