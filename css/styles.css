@@ -329,6 +329,7 @@ body {
   width: 430px;
   height: 640px;
   min-width: 273px;
+  min-height: 480px;
   border-radius: 20px;
 }
 .testimonial-titles {
@@ -341,6 +342,7 @@ body {
 .testimonial-texts {
   width: 80%;
   font-size: var(--font-size-xxsmall);
+  font-weight: 600;
   margin: auto;
   padding: 2rem 0;
   color: var(--white);
@@ -355,7 +357,7 @@ body {
   color: var(--white);
   padding: 1rem 0 0 0;
   font-size: var(--font-size-xxsmall);
-  font-weight: 200;
+  font-weight: 600;
 }
 
 /* BRANDS */
@@ -870,7 +872,7 @@ body {
 @media only screen and (max-width: 701px) {
   :root {
     --gray: #5f6264bf;
-    --font-size-smaller: 0.7rem;
+    --font-size-smaller: 0.75rem;
     --font-size-xxsmall: 0.8rem;
     --font-size-xsmall: 1rem;
     --font-size-small: 1.2rem;
