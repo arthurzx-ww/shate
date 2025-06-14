@@ -342,7 +342,6 @@ body {
 .testimonial-texts {
   width: 80%;
   font-size: var(--font-size-xxsmall);
-  font-weight: 600;
   margin: auto;
   padding: 2rem 0;
   color: var(--white);
@@ -357,7 +356,7 @@ body {
   color: var(--white);
   padding: 1rem 0 0 0;
   font-size: var(--font-size-xxsmall);
-  font-weight: 600;
+  font-weight: 200;
 }
 
 /* BRANDS */
@@ -895,6 +894,10 @@ body {
   .banner-text {
     width: 100%;
   }
+  .btn-banner {
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+  }
   .shate-image {
     padding: 1rem 0;
   }
@@ -946,7 +949,12 @@ body {
     background: var(--gray);
     border-radius: 20px;
   }
-
+  .testimonial-texts {
+    font-weight: 600;
+  }
+  .subtitles-testimonial {
+    font-weight: 600;
+  }
   .brand-title {
     padding: 0 0 2rem 0;
   }
