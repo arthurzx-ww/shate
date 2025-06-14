@@ -919,7 +919,8 @@ body {
   .description-title {
     width: 95%;
   }
-  .testimonial-title {
+  .description-subtitle {
+    width: 90%;
   }
   .text-testimonial {
     color: var(--white);
