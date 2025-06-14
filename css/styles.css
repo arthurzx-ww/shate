@@ -864,14 +864,14 @@ body {
 @media only screen and (max-width: 701px) {
   :root {
     --gray: #5f6264bf;
-    --font-size-smaller: 0.6rem;
+    --font-size-smaller: 0.7rem;
     --font-size-xxsmall: 0.8rem;
     --font-size-xsmall: 1rem;
     --font-size-small: 1.2rem;
     --font-size-medium: 1.3rem;
     --font-size-large: 1.4rem;
     --font-size-xlarge: 1.5rem;
-    --font-size-xxlarge: 1.7rem;
+    --font-size-xxlarge: 1.6rem;
   }
   .banner-content,
   .introduction-content,
